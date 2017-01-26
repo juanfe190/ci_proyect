@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/postals.scss"],"names":[],"mappings":"AAAA;EACC,eAAe;EACf,oBAAoB;EACpB,iBAAiB;EACjB,mBAAmB;EACnB,cAAc;CACd","file":"cinnova.css","sourcesContent":[".postal {\n\tdisplay: block;\n\tmargin-bottom: 25px;\n\toverflow: hidden;\n\tborder-radius: 4px;\n\theight: 300px;\n}"]}
