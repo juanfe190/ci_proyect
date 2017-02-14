@@ -9,25 +9,27 @@
 	  <source src="{{ $url }}" type="video/mp4">
 	  Your browser does not support the video tag.
 	</video>-->
-	<div class="row postals-list">
+	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="" class="postal bg-red">
-				<div class="postal-difficulty">Intermedio</div>
-				<h1 class="postal-title"></h1>
-				<div class="row">
-					<div class="postal-category col-xs-6"></div>
-					<div class="postal-stages col-xs-6"></div>
-				</div>
+			<a href="" class="card">
+				<div class="card-colored-side bg-red"></div>
 			</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="" class="postal bg-blue">hola mundo</a>
+			<a href="" class="card">
+				<div class="card-colored-side bg-green-meadow"></div>
+			</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="" class="postal bg-green-sharp">hola mundo</a>
+			<a href="" class="card">
+				<div class="card-colored-side bg-yellow-saffron"></div>
+			</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="" class="postal bg-yellow">hola mundo</a>
+			<a href="" class="card">
+				<div class="card-colored-side bg-purple"></div>
+			</a>
 		</div>
 	</div>
+	
 @stop

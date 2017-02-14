@@ -1,7 +1,22 @@
-.postal {
+.card {
 	display: block;
+	height: 160px;
+	background-color: #fff;
+	border-radius: 11px;
 	margin-bottom: 25px;
-	overflow: hidden;
-	border-radius: 4px;
-	height: 300px;
+
+	.card-colored-side {
+		width: 7px;
+		height: 100%;
+		border-top-left-radius: inherit;
+    	border-bottom-left-radius: inherit;
+    	transition: width 0.5s;
+	}
+
+
+	&:hover {
+		.card-colored-side {
+			width: 80px;
+		}
+	}
 }
