@@ -1,22 +1,112 @@
-.card {
-	display: block;
-	height: 160px;
-	background-color: #fff;
-	border-radius: 11px;
-	margin-bottom: 25px;
+.card-space {
+	.card {
+		display: block;
+		height: 160px;
+		background-color: #fff;
+		border-radius: 4px;
+		margin-bottom: 25px;
+		position: relative;
+		overflow: hidden;
 
-	.card-colored-side {
-		width: 7px;
-		height: 100%;
-		border-top-left-radius: inherit;
-    	border-bottom-left-radius: inherit;
-    	transition: width 0.5s;
-	}
+		&:after {
+			content: "";
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    width: 20px;
+		    height: 100%;
+		    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), white 60%, white 100%);
+		    background: linear-gradient(90deg, rgba(255, 255, 255, 0), white 60%, white 100%);
+		}
 
-
-	&:hover {
 		.card-colored-side {
-			width: 80px;
+			width: 7px;
+			height: 100%;
+			border-top-left-radius: inherit;
+	    	border-bottom-left-radius: inherit;
+	    	transition: width 0.5s;
+		}
+
+		.card-divider {
+			position: absolute;
+		    left: 80px;
+		    top: 10px;
+		    width: 1px;
+		    height: calc(100% - 20px);
+		    background: #ECECEC;
+		}
+
+		.card-title {
+			position: absolute;
+			left: 90px;
+			top: 20px;
+			width: 300px;
+			white-space: nowrap;
+			
+
+			h3 {
+				margin: 0 0 5px;
+				font-size: 14px;
+				color: #555A5F;
+			}
+
+			h1 {
+				margin: 0;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		}
+
+		.card-stats {
+			position: absolute;
+		    top: 110px;
+		    text-transform: uppercase;
+		    white-space: nowrap;
+		    
+
+		    h4 {
+		    	color: #B5B5B5;
+				font-size: 11.5px;
+				margin: 0 0 2px;
+		    }
+		    
+		    p {
+		    	font-size: 13.5px;
+    			color: #ADADAD;
+    			font-weight: bold;
+    			margin: 0;
+		    }
+		}
+
+		.card-category {
+			left: 90px;
+			width: 90px;
+			overflow: hidden;
+
+			&:after {
+				content: "";
+			    position: absolute;
+			    right: 0;
+			    top: 0;
+			    width: 20px;
+			    height: 100%;
+			    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), white 60%, white 100%);
+			    background: linear-gradient(90deg, rgba(255, 255, 255, 0), white 60%, white 100%);
+			}
+		}
+
+		.card-stage {
+			left: 185px;
+		}
+
+		.card-difficulty {
+			left: 265px;
+		}
+
+		&:hover {
+			.card-colored-side {
+				width: 80px;
+			}
 		}
 	}
 }
