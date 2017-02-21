@@ -26,6 +26,15 @@
       @endif
     </div>
   </div>
+  <div class="form-group {{ $errors->has('difficulty_id') ? 'has-error' : ''}}">
+    {!! Form::label('difficulty_id', 'Dificultad', ['class' => 'control-label col-md-3']) !!}
+    <div class="col-md-9">
+      {!! Form::select('difficulty_id', $difficulties, null, ['class' => 'bs-select form-control', 'placeholder' => 'Seleccione la dificultad del curso', 'autocomplete' => 'off', 'data-live-search' => 'true', 'data-size' => '8']) !!}
+      @if($errors->has('difficulty_id'))
+        <span class="help-block">*{{ $errors->first('difficulty_id') }}</span>
+      @endif
+    </div>
+  </div>
 </div>
 <div class="form-actions left">
   <a href="{{ route('courses.index') }}" class="btn default">Cancelar</a>

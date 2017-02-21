@@ -27,6 +27,7 @@ class CourseRequest extends FormRequest
             'name'=>'required|max:150',
             'description'=>'required|max:500',
             'category_id'=>'required|exists:categories,id',
+            'difficulty_id'=>'required|exists:difficulty,id',
         ];
     }
 
@@ -40,7 +41,8 @@ class CourseRequest extends FormRequest
         return [
             'name.required' => 'El campo nombre es requerido',
             'description.required' => 'El campo descripcion es requerido.',
-            'category_id.required' => 'Debe seleccionar una categoria'
+            'category_id.required' => 'Debe seleccionar una categoria',
+            'difficulty_id.required' => 'Debe seleccionar una dificultad'
         ];
     }
 }
