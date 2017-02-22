@@ -164,7 +164,7 @@
 	}
 }
 
-@for $i from 1 to 11 {
+@for $i from 1 to length($category-colors) + 1 {
 	.category-#{$i} {
 		.card {
 			.card-colored-side {

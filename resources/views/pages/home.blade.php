@@ -236,7 +236,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<div class="card-space category-10">
+			<div class="card-space category-12">
 				<a href="" class="card">
 					<div class="card-colored-side"></div>
 					<div class="card-divider"></div>
