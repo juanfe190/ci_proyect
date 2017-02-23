@@ -19,6 +19,7 @@ class CreateCourseTable extends Migration
             $table->string('description', 500);
             $table->string('video_code', 20)->unique();
             $table->integer('category_id')->unsigned();
+            $table->integer('difficulty_id')->unsigned();
             $table->string('svg_name', 100)->nullable();
             $table->string('url', 150);
             $table->boolean('status')->nullable();
@@ -27,6 +28,7 @@ class CreateCourseTable extends Migration
 
         Schema::table('courses', function($table){
             $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('difficulty_id')->references('id')->on('difficulty');
         });
     }
 
@@ -39,6 +41,7 @@ class CreateCourseTable extends Migration
     {
         Schema::table('courses', function($table){
             $table->dropForeign('courses_category_id_foreign');
+            $table->dropForeign('courses_difficulty_id_foreign');
         });
         Schema::drop('courses');
     }

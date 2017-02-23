@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\CourseRequest;
 use App\Category;
 use App\Course;
+use App\Difficulty;
 use App\Http\Utilities\UrlSanitizer;
 
 class CourseController extends Controller
@@ -38,7 +39,8 @@ class CourseController extends Controller
     */
     public function create(){
         $categorias = Category::all()->pluck('name', 'id');
-        return view('pages.cursos.create')->with('categorias', $categorias->toArray());
+        $difficulties = Difficulty::all()->pluck('name', 'id');
+        return view('pages.cursos.create', ['categorias' => $categorias->toArray(), 'difficulties' => $difficulties->toArray()]);
     }
 
 
@@ -64,7 +66,8 @@ class CourseController extends Controller
     public function edit($url){
         $curso = Course::where('url',$url)->first();
         $categorias = Category::all()->pluck('name', 'id');
-        return view('pages.cursos.edit', ['curso'=>$curso, 'categorias'=>$categorias->toArray()]);
+        $difficulties = Difficulty::all()->pluck('name', 'id');
+        return view('pages.cursos.edit', ['curso'=>$curso, 'categorias'=>$categorias->toArray(), 'difficulties' => $difficulties->toArray()]);
     }
 
     /**
