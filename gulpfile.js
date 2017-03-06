@@ -14,7 +14,7 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(mix => {
-    
+
     //Convert bootstrap.scss to bootstrap.css
     mix.sass('bootstrap.scss', 'resources/assets/css/globalMandatory/bootstrap/bootstrap.css');
 
@@ -23,7 +23,6 @@ elixir(mix => {
     		'globalMandatory/font-awesome/css/font-awesome.css',
     		'globalMandatory/simple-line-icons/simple-line-icons.css',
     		'globalMandatory/bootstrap/bootstrap.css',
-    		'globalMandatory/uniform/css/uniform.default.css',
     		'globalMandatory/bootstrap-switch/css/bootstrap-switch.css'
     	], 'public/css/gmstyles.css');
 
@@ -74,7 +73,6 @@ elixir(mix => {
             'corePlugins/bootstrap-hover-dropdown.js',
             'corePlugins/jquery.slimscroll.js',
             'corePlugins/jquery.blockui.min.js',
-            'corePlugins/jquery.uniform.js',
             'corePlugins/bootstrap-switch.js'
         ], 'public/js/cpscripts.js');
 
@@ -155,5 +153,5 @@ elixir(mix => {
             'public/js/bootstrap-confirmation.js',
             'public/js/tlscripts.js'
         ]);
-        
+
 });

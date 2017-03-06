@@ -1,0 +1,36 @@
+.radio-color {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+  position: relative;
+
+  input[type="radio"]{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+  }
+}
+
+.radio_indicator {
+  border-radius: 3px;
+  height: 34px;
+  width: 34px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 14px;
+    top: 9px;
+    width: 7px;
+    height: 14px;
+    border: solid $check-color;
+    border-width: 0 2px 2px 0;
+    transform: rotate(40deg);
+
+    .radio-color input[type="radio"]:checked ~ & {
+      display: block;
+    }
+  }
+}

@@ -8,13 +8,33 @@
       @endif
     </div>
   </div>
-  <div class="form-group {{ $errors->has('color_code') ? 'has-error' : ''}}">
-    {!! Form::label('color_code', 'Color (HEX)', ['class' => 'control-label col-md-3']) !!}
+  <div class="form-group">
+    {!! Form::label('', 'Color', ['class' => 'control-label col-md-3']) !!}
     <div class="col-md-9">
-      {!! Form::text('color_code', null, ['class' => 'form-control demo', 'autocomplete' => 'off', 'maxlength' => '7', 'data-control' => 'hue']) !!}
-      @if($errors->has('color_code'))
-        <span class="help-block">*{{ $errors->first('color_code') }}</span>
-      @endif
+      <label class="radio-color category-1">
+        {!! Form::radio('color_code', 'category-1') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-2">
+        {!! Form::radio('color_code', 'category-2') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-3">
+        {!! Form::radio('color_code', 'category-3') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-4">
+        {!! Form::radio('color_code', 'category-4') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-5">
+        {!! Form::radio('color_code', 'category-5') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-6">
+        {!! Form::radio('color_code', 'category-6') !!}
+        <div class="radio_indicator"></div>
+      </label>
     </div>
   </div>
 </div>

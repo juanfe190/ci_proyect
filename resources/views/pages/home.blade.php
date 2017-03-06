@@ -1,9 +1,5 @@
 @extends('layouts.theme')
 
-@section('page-level-plugins-css')
-  <link rel="stylesheet" href="{{ elixir('css/cinnova.css') }}">
-@stop
-
 @section('page-content')
 	<!--<video class="col-md-8" controls autoplay>
 	  <source src="{{ $url }}" type="video/mp4">
@@ -261,5 +257,5 @@
 			</div>
 		</div>
 	</div>
-	
+
 @stop

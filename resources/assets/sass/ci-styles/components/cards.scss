@@ -44,7 +44,7 @@
 			top: 20px;
 			width: 300px;
 			white-space: nowrap;
-			
+
 
 			h3 {
 				margin: 0 0 5px;
@@ -64,14 +64,14 @@
 		    top: 110px;
 		    text-transform: uppercase;
 		    white-space: nowrap;
-		    
+
 
 		    h4 {
 		    	color: #B5B5B5;
 				font-size: 12px;
 				margin: 0 0 2px;
 		    }
-		    
+
 		    p {
 		    	font-size: 14px;
     			color: #ADADAD;
@@ -132,7 +132,7 @@
 
 	.card-bookmark {
 		background-color: $card-bookmark-color;
-		  
+
 	    height:25px;
 	    position:absolute;
 	    top:-3px;
@@ -160,53 +160,6 @@
 
 		&:hover {
 			height: 35px;
-		}
-	}
-}
-
-@for $i from 1 to length($category-colors) + 1 {
-	.category-#{$i} {
-		.card {
-			.card-colored-side {
-				background-color: nth($category-colors, $i);
-			}
-
-			.card-title {
-				h1 {
-					color: nth($category-colors, $i);
-				}
-			}
-		}
-
-		.card-bookmark {
-			&:hover{
-				&:before {
-					border-right: 10px solid darken(nth($category-colors, $i), 15%);
-				}
-
-				background-color: nth($category-colors, $i);
-
-				
-			}
-		}
-
-		&.bookmarked {
-			.card-bookmark {
-				height: 35px;			
-				background-color: nth($category-colors, $i);
-
-				&:before {
-					border-right: 10px solid darken(nth($category-colors, $i), 15%);
-				}
-
-				&:hover{
-					&:before {
-						border-right: 10px solid darken(nth($category-colors, $i), 30%);
-					}
-
-					background-color: darken(nth($category-colors, $i), 15%);
-				}
-			}
 		}
 	}
 }

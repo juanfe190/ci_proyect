@@ -1,10 +1,11 @@
 /*
 1. Cards
 2. Colors
-
+3. radio-color
 */
 /*1. Cards*/
 /*2. Colors*/
+/*3. Radio-Color*/
 /*
 1. Linear Gradient
 2. Transition
@@ -185,6 +186,43 @@
   height: 35px;
 }
 
+.radio-color {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+  position: relative;
+}
+
+.radio-color input[type="radio"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.radio_indicator {
+  border-radius: 3px;
+  height: 34px;
+  width: 34px;
+}
+
+.radio_indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 14px;
+  top: 9px;
+  width: 7px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+.radio-color input[type="radio"]:checked ~ .radio_indicator:after {
+  display: block;
+}
+
 .category-1 .card .card-colored-side {
   background-color: #CC342D;
 }
@@ -216,6 +254,10 @@
 
 .category-1.bookmarked .card-bookmark:hover:before {
   border-right: 10px solid #4f1411;
+}
+
+.category-1 .radio_indicator {
+  background-color: #CC342D;
 }
 
 .category-2 .card .card-colored-side {
@@ -251,6 +293,10 @@
   border-right: 10px solid #080e05;
 }
 
+.category-2 .radio_indicator {
+  background-color: #4b7d2f;
+}
+
 .category-3 .card .card-colored-side {
   background-color: #500752;
 }
@@ -282,6 +328,10 @@
 
 .category-3.bookmarked .card-bookmark:hover:before {
   border-right: 10px solid black;
+}
+
+.category-3 .radio_indicator {
+  background-color: #500752;
 }
 
 .category-4 .card .card-colored-side {
@@ -317,6 +367,10 @@
   border-right: 10px solid black;
 }
 
+.category-4 .radio_indicator {
+  background-color: #444444;
+}
+
 .category-5 .card .card-colored-side {
   background-color: #1BBC9B;
 }
@@ -348,6 +402,10 @@
 
 .category-5.bookmarked .card-bookmark:hover:before {
   border-right: 10px solid #08362d;
+}
+
+.category-5 .radio_indicator {
+  background-color: #1BBC9B;
 }
 
 .category-6 .card .card-colored-side {
@@ -383,6 +441,10 @@
   border-right: 10px solid #927608;
 }
 
+.category-6 .radio_indicator {
+  background-color: #F4D03F;
+}
+
 .category-7 .card .card-colored-side {
   background-color: #36C4D0;
 }
@@ -414,6 +476,10 @@
 
 .category-7.bookmarked .card-bookmark:hover:before {
   border-right: 10px solid #155358;
+}
+
+.category-7 .radio_indicator {
+  background-color: #36C4D0;
 }
 
 .category-8 .card .card-colored-side {
@@ -449,6 +515,10 @@
   border-right: 10px solid #662401;
 }
 
+.category-8 .radio_indicator {
+  background-color: #FD5B03;
+}
+
 .category-9 .card .card-colored-side {
   background-color: #FF6B6E;
 }
@@ -480,6 +550,10 @@
 
 .category-9.bookmarked .card-bookmark:hover:before {
   border-right: 10px solid #d10004;
+}
+
+.category-9 .radio_indicator {
+  background-color: #FF6B6E;
 }
 
 .category-10 .card .card-colored-side {
@@ -515,6 +589,10 @@
   border-right: 10px solid #3dab91;
 }
 
+.category-10 .radio_indicator {
+  background-color: #A2DED0;
+}
+
 .category-11 .card .card-colored-side {
   background-color: #C86400;
 }
@@ -548,6 +626,10 @@
   border-right: 10px solid #2f1800;
 }
 
+.category-11 .radio_indicator {
+  background-color: #C86400;
+}
+
 .category-12 .card .card-colored-side {
   background-color: #8892BF;
 }
@@ -579,6 +661,10 @@
 
 .category-12.bookmarked .card-bookmark:hover:before {
   border-right: 10px solid #3d4671;
+}
+
+.category-12 .radio_indicator {
+  background-color: #8892BF;
 }
 
 /*# sourceMappingURL=cinnova.css.map */
