@@ -224,106 +224,106 @@
 }
 
 .category-1 .card .card-colored-side {
-  background-color: #CC342D;
+  background-color: #0079BF;
 }
 
 .category-1 .card .card-title h1 {
-  color: #CC342D;
+  color: #0079BF;
 }
 
 .category-1 .card-bookmark:hover {
-  background-color: #CC342D;
+  background-color: #0079BF;
 }
 
 .category-1 .card-bookmark:hover:before {
-  border-right: 10px solid #8d241f;
+  border-right: 10px solid #004973;
 }
 
 .category-1.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #CC342D;
+  background-color: #0079BF;
 }
 
 .category-1.bookmarked .card-bookmark:before {
-  border-right: 10px solid #8d241f;
+  border-right: 10px solid #004973;
 }
 
 .category-1.bookmarked .card-bookmark:hover {
-  background-color: #8d241f;
+  background-color: #004973;
 }
 
 .category-1.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #4f1411;
+  border-right: 10px solid #001826;
 }
 
 .category-1 .radio_indicator {
-  background-color: #CC342D;
+  background-color: #0079BF;
 }
 
 .category-2 .card .card-colored-side {
-  background-color: #4b7d2f;
+  background-color: #1BBC9B;
 }
 
 .category-2 .card .card-title h1 {
-  color: #4b7d2f;
+  color: #1BBC9B;
 }
 
 .category-2 .card-bookmark:hover {
-  background-color: #4b7d2f;
+  background-color: #1BBC9B;
 }
 
 .category-2 .card-bookmark:hover:before {
-  border-right: 10px solid #2a451a;
+  border-right: 10px solid #117964;
 }
 
 .category-2.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #4b7d2f;
+  background-color: #1BBC9B;
 }
 
 .category-2.bookmarked .card-bookmark:before {
-  border-right: 10px solid #2a451a;
+  border-right: 10px solid #117964;
 }
 
 .category-2.bookmarked .card-bookmark:hover {
-  background-color: #2a451a;
+  background-color: #117964;
 }
 
 .category-2.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #080e05;
+  border-right: 10px solid #08362d;
 }
 
 .category-2 .radio_indicator {
-  background-color: #4b7d2f;
+  background-color: #1BBC9B;
 }
 
 .category-3 .card .card-colored-side {
-  background-color: #500752;
+  background-color: #444444;
 }
 
 .category-3 .card .card-title h1 {
-  color: #500752;
+  color: #444444;
 }
 
 .category-3 .card-bookmark:hover {
-  background-color: #500752;
+  background-color: #444444;
 }
 
 .category-3 .card-bookmark:hover:before {
-  border-right: 10px solid #0b010c;
+  border-right: 10px solid #1e1e1e;
 }
 
 .category-3.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #500752;
+  background-color: #444444;
 }
 
 .category-3.bookmarked .card-bookmark:before {
-  border-right: 10px solid #0b010c;
+  border-right: 10px solid #1e1e1e;
 }
 
 .category-3.bookmarked .card-bookmark:hover {
-  background-color: #0b010c;
+  background-color: #1e1e1e;
 }
 
 .category-3.bookmarked .card-bookmark:hover:before {
@@ -331,340 +331,303 @@
 }
 
 .category-3 .radio_indicator {
-  background-color: #500752;
+  background-color: #444444;
 }
 
 .category-4 .card .card-colored-side {
-  background-color: #444444;
+  background-color: #4b7d2f;
 }
 
 .category-4 .card .card-title h1 {
-  color: #444444;
+  color: #4b7d2f;
 }
 
 .category-4 .card-bookmark:hover {
-  background-color: #444444;
+  background-color: #4b7d2f;
 }
 
 .category-4 .card-bookmark:hover:before {
-  border-right: 10px solid #1e1e1e;
+  border-right: 10px solid #2a451a;
 }
 
 .category-4.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #444444;
+  background-color: #4b7d2f;
 }
 
 .category-4.bookmarked .card-bookmark:before {
-  border-right: 10px solid #1e1e1e;
+  border-right: 10px solid #2a451a;
 }
 
 .category-4.bookmarked .card-bookmark:hover {
-  background-color: #1e1e1e;
+  background-color: #2a451a;
 }
 
 .category-4.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid black;
+  border-right: 10px solid #080e05;
 }
 
 .category-4 .radio_indicator {
-  background-color: #444444;
+  background-color: #4b7d2f;
 }
 
 .category-5 .card .card-colored-side {
-  background-color: #1BBC9B;
+  background-color: #500752;
 }
 
 .category-5 .card .card-title h1 {
-  color: #1BBC9B;
+  color: #500752;
 }
 
 .category-5 .card-bookmark:hover {
-  background-color: #1BBC9B;
+  background-color: #500752;
 }
 
 .category-5 .card-bookmark:hover:before {
-  border-right: 10px solid #117964;
+  border-right: 10px solid #0b010c;
 }
 
 .category-5.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #1BBC9B;
+  background-color: #500752;
 }
 
 .category-5.bookmarked .card-bookmark:before {
-  border-right: 10px solid #117964;
+  border-right: 10px solid #0b010c;
 }
 
 .category-5.bookmarked .card-bookmark:hover {
-  background-color: #117964;
+  background-color: #0b010c;
 }
 
 .category-5.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #08362d;
+  border-right: 10px solid black;
 }
 
 .category-5 .radio_indicator {
-  background-color: #1BBC9B;
+  background-color: #500752;
 }
 
 .category-6 .card .card-colored-side {
-  background-color: #F4D03F;
+  background-color: #5d4329;
 }
 
 .category-6 .card .card-title h1 {
-  color: #F4D03F;
+  color: #5d4329;
 }
 
 .category-6 .card-bookmark:hover {
-  background-color: #F4D03F;
+  background-color: #5d4329;
 }
 
 .category-6 .card-bookmark:hover:before {
-  border-right: 10px solid #dab10c;
+  border-right: 10px solid #281d12;
 }
 
 .category-6.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #F4D03F;
+  background-color: #5d4329;
 }
 
 .category-6.bookmarked .card-bookmark:before {
-  border-right: 10px solid #dab10c;
+  border-right: 10px solid #281d12;
 }
 
 .category-6.bookmarked .card-bookmark:hover {
-  background-color: #dab10c;
+  background-color: #281d12;
 }
 
 .category-6.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #927608;
+  border-right: 10px solid black;
 }
 
 .category-6 .radio_indicator {
-  background-color: #F4D03F;
+  background-color: #5d4329;
 }
 
 .category-7 .card .card-colored-side {
-  background-color: #36C4D0;
+  background-color: #8892BF;
 }
 
 .category-7 .card .card-title h1 {
-  color: #36C4D0;
+  color: #8892BF;
 }
 
 .category-7 .card-bookmark:hover {
-  background-color: #36C4D0;
+  background-color: #8892BF;
 }
 
 .category-7 .card-bookmark:hover:before {
-  border-right: 10px solid #238d96;
+  border-right: 10px solid #5865a3;
 }
 
 .category-7.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #36C4D0;
+  background-color: #8892BF;
 }
 
 .category-7.bookmarked .card-bookmark:before {
-  border-right: 10px solid #238d96;
+  border-right: 10px solid #5865a3;
 }
 
 .category-7.bookmarked .card-bookmark:hover {
-  background-color: #238d96;
+  background-color: #5865a3;
 }
 
 .category-7.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #155358;
+  border-right: 10px solid #3d4671;
 }
 
 .category-7 .radio_indicator {
-  background-color: #36C4D0;
+  background-color: #8892BF;
 }
 
 .category-8 .card .card-colored-side {
-  background-color: #FD5B03;
+  background-color: #CC342D;
 }
 
 .category-8 .card .card-title h1 {
-  color: #FD5B03;
+  color: #CC342D;
 }
 
 .category-8 .card-bookmark:hover {
-  background-color: #FD5B03;
+  background-color: #CC342D;
 }
 
 .category-8 .card-bookmark:hover:before {
-  border-right: 10px solid #b24001;
+  border-right: 10px solid #8d241f;
 }
 
 .category-8.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #FD5B03;
+  background-color: #CC342D;
 }
 
 .category-8.bookmarked .card-bookmark:before {
-  border-right: 10px solid #b24001;
+  border-right: 10px solid #8d241f;
 }
 
 .category-8.bookmarked .card-bookmark:hover {
-  background-color: #b24001;
+  background-color: #8d241f;
 }
 
 .category-8.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #662401;
+  border-right: 10px solid #4f1411;
 }
 
 .category-8 .radio_indicator {
-  background-color: #FD5B03;
+  background-color: #CC342D;
 }
 
 .category-9 .card .card-colored-side {
-  background-color: #FF6B6E;
+  background-color: #F2D600;
 }
 
 .category-9 .card .card-title h1 {
-  color: #FF6B6E;
+  color: #F2D600;
 }
 
 .category-9 .card-bookmark:hover {
-  background-color: #FF6B6E;
+  background-color: #F2D600;
 }
 
 .category-9 .card-bookmark:hover:before {
-  border-right: 10px solid #ff1f23;
+  border-right: 10px solid #a69200;
 }
 
 .category-9.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #FF6B6E;
+  background-color: #F2D600;
 }
 
 .category-9.bookmarked .card-bookmark:before {
-  border-right: 10px solid #ff1f23;
+  border-right: 10px solid #a69200;
 }
 
 .category-9.bookmarked .card-bookmark:hover {
-  background-color: #ff1f23;
+  background-color: #a69200;
 }
 
 .category-9.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #d10004;
+  border-right: 10px solid #594f00;
 }
 
 .category-9 .radio_indicator {
-  background-color: #FF6B6E;
+  background-color: #F2D600;
 }
 
 .category-10 .card .card-colored-side {
-  background-color: #A2DED0;
+  background-color: #FD5B03;
 }
 
 .category-10 .card .card-title h1 {
-  color: #A2DED0;
+  color: #FD5B03;
 }
 
 .category-10 .card-bookmark:hover {
-  background-color: #A2DED0;
+  background-color: #FD5B03;
 }
 
 .category-10 .card-bookmark:hover:before {
-  border-right: 10px solid #6acab3;
+  border-right: 10px solid #b24001;
 }
 
 .category-10.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #A2DED0;
+  background-color: #FD5B03;
 }
 
 .category-10.bookmarked .card-bookmark:before {
-  border-right: 10px solid #6acab3;
+  border-right: 10px solid #b24001;
 }
 
 .category-10.bookmarked .card-bookmark:hover {
-  background-color: #6acab3;
+  background-color: #b24001;
 }
 
 .category-10.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #3dab91;
+  border-right: 10px solid #662401;
 }
 
 .category-10 .radio_indicator {
-  background-color: #A2DED0;
+  background-color: #FD5B03;
 }
 
 .category-11 .card .card-colored-side {
-  background-color: #C86400;
+  background-color: #FF6B6E;
 }
 
 .category-11 .card .card-title h1 {
-  color: #C86400;
+  color: #FF6B6E;
 }
 
 .category-11 .card-bookmark:hover {
-  background-color: #C86400;
+  background-color: #FF6B6E;
 }
 
 .category-11 .card-bookmark:hover:before {
-  border-right: 10px solid #7c3e00;
+  border-right: 10px solid #ff1f23;
 }
 
 .category-11.bookmarked .card-bookmark {
   height: 35px;
-  background-color: #C86400;
+  background-color: #FF6B6E;
 }
 
 .category-11.bookmarked .card-bookmark:before {
-  border-right: 10px solid #7c3e00;
+  border-right: 10px solid #ff1f23;
 }
 
 .category-11.bookmarked .card-bookmark:hover {
-  background-color: #7c3e00;
+  background-color: #ff1f23;
 }
 
 .category-11.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #2f1800;
+  border-right: 10px solid #d10004;
 }
 
 .category-11 .radio_indicator {
-  background-color: #C86400;
-}
-
-.category-12 .card .card-colored-side {
-  background-color: #8892BF;
-}
-
-.category-12 .card .card-title h1 {
-  color: #8892BF;
-}
-
-.category-12 .card-bookmark:hover {
-  background-color: #8892BF;
-}
-
-.category-12 .card-bookmark:hover:before {
-  border-right: 10px solid #5865a3;
-}
-
-.category-12.bookmarked .card-bookmark {
-  height: 35px;
-  background-color: #8892BF;
-}
-
-.category-12.bookmarked .card-bookmark:before {
-  border-right: 10px solid #5865a3;
-}
-
-.category-12.bookmarked .card-bookmark:hover {
-  background-color: #5865a3;
-}
-
-.category-12.bookmarked .card-bookmark:hover:before {
-  border-right: 10px solid #3d4671;
-}
-
-.category-12 .radio_indicator {
-  background-color: #8892BF;
+  background-color: #FF6B6E;
 }
 
 /*# sourceMappingURL=cinnova.css.map */

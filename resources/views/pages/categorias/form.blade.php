@@ -35,6 +35,26 @@
         {!! Form::radio('color_code', 'category-6') !!}
         <div class="radio_indicator"></div>
       </label>
+      <label class="radio-color category-7">
+        {!! Form::radio('color_code', 'category-7') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-8">
+        {!! Form::radio('color_code', 'category-8') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-9">
+        {!! Form::radio('color_code', 'category-9') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-10">
+        {!! Form::radio('color_code', 'category-10') !!}
+        <div class="radio_indicator"></div>
+      </label>
+      <label class="radio-color category-11">
+        {!! Form::radio('color_code', 'category-11') !!}
+        <div class="radio_indicator"></div>
+      </label>
     </div>
   </div>
 </div>
