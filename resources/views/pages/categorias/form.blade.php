@@ -12,49 +12,52 @@
     {!! Form::label('', 'Color', ['class' => 'control-label col-md-3']) !!}
     <div class="col-md-9">
       <label class="radio-color category-1">
-        {!! Form::radio('color_code', 'category-1') !!}
+        {!! Form::radio('color_code', '1') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-2">
-        {!! Form::radio('color_code', 'category-2') !!}
+        {!! Form::radio('color_code', '2') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-3">
-        {!! Form::radio('color_code', 'category-3') !!}
+        {!! Form::radio('color_code', '3') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-4">
-        {!! Form::radio('color_code', 'category-4') !!}
+        {!! Form::radio('color_code', '4') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-5">
-        {!! Form::radio('color_code', 'category-5') !!}
+        {!! Form::radio('color_code', '5') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-6">
-        {!! Form::radio('color_code', 'category-6') !!}
+        {!! Form::radio('color_code', '6') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-7">
-        {!! Form::radio('color_code', 'category-7') !!}
+        {!! Form::radio('color_code', '7') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-8">
-        {!! Form::radio('color_code', 'category-8') !!}
+        {!! Form::radio('color_code', '8') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-9">
-        {!! Form::radio('color_code', 'category-9') !!}
+        {!! Form::radio('color_code', '9') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-10">
-        {!! Form::radio('color_code', 'category-10') !!}
+        {!! Form::radio('color_code', '10') !!}
         <div class="radio_indicator"></div>
       </label>
       <label class="radio-color category-11">
-        {!! Form::radio('color_code', 'category-11') !!}
+        {!! Form::radio('color_code', '11') !!}
         <div class="radio_indicator"></div>
       </label>
+      @if($errors->has('color_code'))
+        <span class="help-block">*{{ $errors->first('color_code') }}</span>
+      @endif
     </div>
   </div>
 </div>

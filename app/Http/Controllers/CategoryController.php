@@ -11,7 +11,6 @@ use App\Http\Utilities\UrlSanitizer;
 class CategoryController extends Controller
 {
     public function __construct(){
-        $this->middleware('CheckColor', ['only'=>['store', 'update']]);
         $this->middleware('CheckCategory:url', ['only' => ['edit']]);
         $this->middleware('CheckCategory:id', ['only' => ['destroy', 'update']]);
     }

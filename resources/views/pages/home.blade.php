@@ -6,32 +6,36 @@
 	  Your browser does not support the video tag.
 	</video>-->
 	<div class="row">
+	@foreach($categorias as $categoria)
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<div class="card-space category-1 bookmarked">
+			<div class="card-space category-{{$categoria->color_code}} bookmarked">
 				<a href="" class="card">
 					<div class="card-colored-side"></div>
 					<div class="card-divider"></div>
 					<div class="card-title">
-						<h3 class="card-title-type">Curso</h3>
-						<h1 class="card-title-name">PHP Básico</h1>
+						<h3 class="card-title-type">{{$categoria->course_name}}</h3>
+						<h1 class="card-title-name">{!! $categoria->course_description !!}</h1>
 					</div>
 					<div class="card-stats card-stage">
 						<h4>Etapas</h4>
-						<p>5</p>
+						<p></p>
 					</div>
 					<div class="card-stats card-category">
 						<h4>Categoría</h4>
-						<p>PHP</p>
+						<p>{{$categoria->name}}</p>
 					</div>
 					<div class="card-stats card-difficulty">
 						<h4>Dificultad</h4>
-						<p>Principiante</p>
+						<p>{{$categoria->difficulty}}</p>
 					</div>
 				</a>
 				<a href="" class="card-bookmark"></a>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+	@endforeach
+
+
+		<!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 			<div class="card-space category-2">
 				<a href="" class="card">
 					<div class="card-colored-side"></div>
@@ -280,7 +284,7 @@
 				</a>
 				<a href="" class="card-bookmark"></a>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 @stop

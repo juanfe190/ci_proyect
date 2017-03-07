@@ -25,7 +25,20 @@ class CategoryRequest extends FormRequest
     {
         return [
             'name'=>'required|max:50',
-            'color_code'=>'required|max:7'
+            'color_code'=>'required|min:0|max:99'
+        ];
+    }
+
+    /**
+     * Get the error messages that apply to the request.
+     *
+     * @return array
+     */
+    public function messages()
+    {
+        return [
+            'color_code.required' => 'Debe seleccionar un color',
+            'name.required' => 'El campo nombre es requerido',
         ];
     }
 }
