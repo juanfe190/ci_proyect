@@ -18,7 +18,7 @@
 					</div>
 					<div class="card-stats card-stage">
 						<h4>Etapas</h4>
-						<p></p>
+						<p>{{$categoria->stages}}</p>
 					</div>
 					<div class="card-stats card-category">
 						<h4>Categoría</h4>
